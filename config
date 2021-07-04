@@ -193,7 +193,7 @@ bindsym $mod+Control+l exec ~/.config/i3/scripts/blur-lock.sh
 bindsym $mod+Shift+c reload
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r exec xrdb ~/.Xresources
+bindsym $mod+Shift+r exec i3-msg restart
 
 # keybinding list in editor:
 bindsym $mod+F1 exec xed ~/.config/i3/keybindings
