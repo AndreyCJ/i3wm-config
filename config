@@ -362,16 +362,16 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # start a script to setup displays
 # uncomment the next line, use arandr to setup displays and save the file as monitor:
-#exec --no-startup-id ~/.screenlayout/monitor.sh
+#exec --no-startup-id ~/.config/i3/screen-layout/monitor.sh
 
 # single laptop monitor setup
-bindsym $mod+z exec ~/.screenlayout/laptop-only.sh
+bindsym $mod+z exec ~/.config/i3/screen-layout/laptop-only.sh
 
 # single external monitor setup
-bindsym $mod+c exec ~/.screenlayout/external-only.sh
+bindsym $mod+c exec ~/.config/i3/screen-layout/external-only.sh
 
 # dual monitor setup
-bindsym $mod+x exec ~/.screenlayout/laptop-monitor.sh
+bindsym $mod+x exec ~/.config/i3/screen-layout/laptop-monitor.sh
 
 # start blueberry app for managing bluetooth devices from tray:
 exec --no-startup-id blueberry-tray
